@@ -1,8 +1,10 @@
 # stm32-dma-uart-echo
 
-Simple STM32CubeIDE project demonstrating UART communication using DMA and FreeRTOS. Implements an **echo functionality**: whatever you send to the UART is echoed back automatically.
+Simple STM32CubeIDE project demonstrating UART communication using DMA and FreeRTOS on STM32F103C8T6. Implements an **echo functionality**: whatever you send to the UART is echoed back automatically.
 
 > ⚠️ Note: This is a beginner-friendly example. Code may contain bugs and is **not production-ready**.
+
+<img width="1258" height="663" alt="image" src="https://github.com/user-attachments/assets/ed554b99-d341-4259-81cb-c5e114d20eb6" />
 
 ---
 
