@@ -1,0 +1,23 @@
+# Build output folders
+Debug/
+Release/
+*.elf
+*.hex
+*.bin
+*.map
+*.axf
+
+# Eclipse/CubeIDE files
+/.settings/
+/*.launch
+/.cproject
+/.project
+
+# Backup/temporary files
+*~ 
+*.swp
+*.tmp
+*.bak
+
+# STM32CubeIDE local settings
+.local
