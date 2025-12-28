@@ -30,7 +30,8 @@ Simple STM32CubeIDE project demonstrating UART communication using DMA and FreeR
 
 ### Key files:
 
-- `uart_dma.c` / `uart_dma.h` — ring buffer management, DMA RX/TX functions
+- `usart.c` / `usart.h` — DMA RX/TX functions
+- `uart_rings.c` / `uart_rings.h` - UART DMA RX/TX rings managing
 - `main.c` — FreeRTOS task `StartDefaultTask` handling echo
 - `stm32xxxx_hal_conf.h` — HAL configuration
 
