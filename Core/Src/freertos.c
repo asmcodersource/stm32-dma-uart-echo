@@ -26,6 +26,7 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "usart.h"
+#include <ring_buffered_uart_dma.h>
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
