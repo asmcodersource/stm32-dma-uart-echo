@@ -23,7 +23,7 @@ ring_buffer_t uart1_tx_ring_buffer = {
 };
 
 ring_buffer_t uart1_rx_ring_buffer = {
-	.data = uart1_tx_ring_buffer_data,
+	.data = uart1_rx_ring_buffer_data,
 	.available_size = USART_RX_RING_SIZE,
 	.length = USART_RX_RING_SIZE,
 	.head = 0,
